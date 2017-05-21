@@ -8,6 +8,7 @@ export const setLyrics = function(text) {
 }
 
 
+
 // Two things to note:
 //   1. We use Object.assign to maintain immutability.
 //      Since our state only has one key on it, it doesn't matter much, but what if we added more?
